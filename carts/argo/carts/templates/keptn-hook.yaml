@@ -25,4 +25,5 @@ spec:
                 name: argo
                 key: KEPTN_API_TOKEN
       restartPolicy: Never
+      serviceAccountName: keptn-hook
   backoffLimit: 2
